@@ -1,13 +1,11 @@
 export function Footer() {
-    return (
-        <footer>
-            <div>
-                <p>
-                    Copyright &copy; {(new Date).getFullYear()}
-                </p>
-            </div>
-        </footer>
-    )
+  return (
+    <footer className="py-4 border-t">
+      <div className="container mx-auto">
+        <p>Copyright &copy; {new Date().getFullYear()}</p>
+      </div>
+    </footer>
+  );
 }
 
 export default Footer;
