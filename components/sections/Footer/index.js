@@ -1,7 +1,7 @@
 export function Footer() {
     return (
-        <footer>
-            <div>
+        <footer className='py-rem'>
+            <div className='container'>
                 <p>
                     Copyright &copy; {(new Date).getFullYear()}
                 </p>
