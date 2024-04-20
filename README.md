@@ -1,5 +1,7 @@
 # Basic App - Demo application in [Next.js](https://nextjs.org/)
 
+The application use [Reqres API](https://jsonplaceholder.typicode.com/) to get demo data.
+
 ## Steps to start
 
 Clone or download this repository.

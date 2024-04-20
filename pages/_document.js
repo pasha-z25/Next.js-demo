@@ -10,7 +10,7 @@ export default class MyDocument extends Document {
                     <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
                     <link rel="shortcut icon" href="/icons/favicon.ico" />
                 </Head>
-                <body className="text-2xl">
+                <body>
                     <Main />
                     <NextScript />
                 </body>
